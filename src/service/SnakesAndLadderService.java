@@ -76,7 +76,7 @@ public class SnakesAndLadderService {
 			} else {
 				print.badShortcut(newPosition, player);
 			}
-			player.setBoardPosition(newPosition);
+			// player.setBoardPosition(newPosition);
 		}
 	}
 	

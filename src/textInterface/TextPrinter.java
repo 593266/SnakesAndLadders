@@ -10,10 +10,10 @@ public class TextPrinter {
 	
 	public void Welcome() {
 		System.out.println("Velkommen til Stigespillet "
-				+ "\nFor å starte må spillere ha navn."
-				+ "\nSkriv inn navn på spiller og trykk enter."
-				+ "\nSkriv 'spill for å starte når 2 eller flere spillere har navn"
-				+ "\nSkriv 'avslutt' når som helst for å avslutte");
+				+ "\nFor ï¿½ starte mï¿½ spillere ha navn."
+				+ "\nSkriv inn navn pï¿½ spiller og trykk enter."
+				+ "\nSkriv 'spill for ï¿½ starte nï¿½r 2 eller flere spillere har navn"
+				+ "\nSkriv 'avslutt' nï¿½r som helst for ï¿½ avslutte");
 		
 	}
 	
@@ -36,7 +36,7 @@ public class TextPrinter {
 	}
 	
 	public void shortcut(int newPosition, Piece player) {
-		System.out.println(player.getPlayerName() + " hit a shortcut");
+		System.out.println(player.getPlayerName() + " hit a snake");
 		System.out.println(player.getPlayerName() + " moved from " + player.getBoardPosition()
 		+ " to " + newPosition);
 	}
